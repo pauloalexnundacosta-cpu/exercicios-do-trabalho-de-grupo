@@ -15,7 +15,7 @@ namespace Listaexercicos
             for (int i = 0; i < 5; i++)
             {
                 Console.Write($"Digite a nota {i + 1}: ");
-                int nota = Convert.ToInt32(Console.ReadLine());
+                int nota = int.Parse( Console.ReadLine() );
                 notas.Add(nota);
             }
 

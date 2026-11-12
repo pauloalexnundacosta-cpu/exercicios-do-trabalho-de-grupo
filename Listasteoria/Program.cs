@@ -27,8 +27,6 @@ class Program
 
 
 
-
-
         Console.WriteLine("=== Frutas ===");
         foreach (string fruta in frutas)
         {
